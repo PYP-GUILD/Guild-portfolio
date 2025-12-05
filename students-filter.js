@@ -3,7 +3,7 @@ console.log("✅ Loaded students-filter.js");
 const students = [
     {
         name: "Uduka Ephraim",
-        image: "phraim.jpg",
+        image: "Ephraim.jpg",
         skills: ["graphics design", "canva", "illustrator", "wireframing"],
         portfolio: "https://pyp-guild.github.io/Ephraim_portfolio/",
         cohort: "2025",
