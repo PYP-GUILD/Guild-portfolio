@@ -60,26 +60,26 @@ const students = [
     
     },
     {
-        name: "John Udoka",
-        image: "john.jpg",
+        name: "Gabriel Utaka",
+        image: ".jpg",
         skills: ["graphics design", "python", "vanilla js", "ui design"],
-        portfolio: "https://pyp-guild.github.io/John-Portfolio/",
+        portfolio: "",
         cohort: "2025",
         projects: ["portfolio website", "graphics design"]
     
     },
     {
-        name: "John Udoka",
-        image: "john.jpg",
+        name: "Roland ",
+        image: ".jpg",
         skills: ["graphics design", "python", "vanilla js", "ui design"],
-        portfolio: "https://pyp-guild.github.io/John-Portfolio/",
+        portfolio: "",
         cohort: "2025",
         projects: ["portfolio website", "graphics design"]
     
     },
     {
-        name: "Priya Patel",
-        image: "images/students/placeholder.jpg",
+        name: "Ngozi Udoka",
+        image: ".jpg",
         skills: ["data", "python", "machine-learning", "tensorflow"],
         portfolio: "#",
         cohort: "2025",
