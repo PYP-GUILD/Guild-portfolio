@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Students - PYP Guild</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="logo">PYP Guild</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">What We Do</a></li>
+                <li><a href="students.html" class="active">Students</a></li>
+            </ul>
+            <button class="mobile-menu" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="students-hero">
+            <div class="students-hero-content">
+                <h1>Our Students</h1>
+                <p class="lead">Meet the talented developers who make up the 2025 PYP Guild community</p>
+            </div>
+        </section>
+
+        <section class="student-directory">
+            <div class="container">
+                <div class="directory-filters">
+                    <div class="search-bar">
+                        <input type="text" id="student-search" placeholder="Search students by name or skills...">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="frontend">Frontend</button>
+                        <button class="filter-btn" data-filter="python">Python Programming</button>
+                        <button class="filter-btn" data-filter="graphics design">Graphics Design</button>
+                        <button class="filter-btn" data-filter="ui design">UI Design</button>
+                    </div>
+                </div>
+
+                <div class="students-grid">
+                    <!-- Student cards will be dynamically populated -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>PYP Guild</h4>
+                <p>Building the next generation of tech talent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">What We Do</a></li>
+                    <li><a href="students.html">Students</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@powerfulyoungproject.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PYP Guild. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/students-filter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
