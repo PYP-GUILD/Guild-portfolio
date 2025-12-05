@@ -1,9 +1,9 @@
-console.log("✅ Loaded students-filter.js from js folder");
+console.log("✅ Loaded students-filter.js");
 // Sample student data - In a real application, this would come from a backend
 const students = [
     {
         name: "Uduka Ephraim",
-        image: "images/students/Ephraim.jpg",
+        image: "phraim.jpg",
         skills: ["graphics design", "canva", "illustrator", "wireframing"],
         portfolio: "https://pyp-guild.github.io/Ephraim_portfolio/",
         cohort: "2025",
@@ -11,7 +11,7 @@ const students = [
     },
     {
         name: "Joshua Chigozie",
-        image: "images/students/joshua.jpg",
+        image: "joshua.jpg",
         skills: ["ui design", "responsive layouts", "python programming", "canva"],
         portfolio: "https://pyp-guild.github.io/Joshua-chigozie-portfolio/",
         cohort: "2025",
@@ -19,7 +19,7 @@ const students = [
     },
     {
         name: "Achuagu Collins",
-        image: "images/students/achuagu-collins.jpg",
+        image: "achuagu-collins.jpg",
         skills: ["python programming", "problem solving", "graphics design", "vanilla js"],
         portfolio: "https://pyp-guild.github.io/Collins_portfolio/",
         cohort: "2025",
@@ -27,7 +27,7 @@ const students = [
     },
     {
         name: "Alaafin Timileyin",
-        image: "images/students/timi.jpg",
+        image: "timi.jpg",
         skills: ["ui design", "Vanilla JS", "HTML/CSS", "responsive layouts"],
         portfolio: "https://pyp-guild.github.io/Timileyin-Portfolio/",
         cohort: "2025",
@@ -35,7 +35,7 @@ const students = [
     },
     {
         name: "Miles Nwabuzor",
-        image: "images/students/miles.jpg",
+        image: "miles.jpg",
         skills: ["responsive design", "vanilla js", "ui design", "graphics design"],
         portfolio: "https://pyp-guild.github.io/Miles-Portfolio-website/",
         cohort: "2025",
@@ -43,7 +43,7 @@ const students = [
     },
     {
         name: "Chinemerem Ezenma",
-        image: "images/students/chine.jpg",
+        image: "chine.jpg",
         skills: ["Graphics Design", "python", "native js", "ui design"],
         portfolio: "https://pyp-guild.github.io/Chinemerem-Portfolio/",
         cohort: "2025",
@@ -52,14 +52,31 @@ const students = [
     },
     {
         name: "John Udoka",
-        image: "images/students/john.jpg",
+        image: "john.jpg",
         skills: ["graphics design", "python", "vanilla js", "ui design"],
         portfolio: "https://pyp-guild.github.io/John-Portfolio/",
         cohort: "2025",
         projects: ["portfolio website", "graphics design"]
     
     },
-
+    {
+        name: "John Udoka",
+        image: "john.jpg",
+        skills: ["graphics design", "python", "vanilla js", "ui design"],
+        portfolio: "https://pyp-guild.github.io/John-Portfolio/",
+        cohort: "2025",
+        projects: ["portfolio website", "graphics design"]
+    
+    },
+    {
+        name: "John Udoka",
+        image: "john.jpg",
+        skills: ["graphics design", "python", "vanilla js", "ui design"],
+        portfolio: "https://pyp-guild.github.io/John-Portfolio/",
+        cohort: "2025",
+        projects: ["portfolio website", "graphics design"]
+    
+    },
     {
         name: "Priya Patel",
         image: "images/students/placeholder.jpg",
