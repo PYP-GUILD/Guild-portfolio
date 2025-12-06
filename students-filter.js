@@ -61,7 +61,7 @@ const students = [
     },
     {
         name: "Gabriel Utaka",
-        image: "ggg.jpeg",
+        image: "ggg(1).jpeg",
         skills: ["graphics design", "python", "vanilla js", "ui design"],
         portfolio: "https://pyp-guild.github.io/GABRIEL--PORTFOLIO/",
         cohort: "2025",
