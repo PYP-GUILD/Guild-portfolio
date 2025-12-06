@@ -79,11 +79,11 @@ const students = [
     },
     {
         name: "Ngozi Udoka",
-        image: ".jpg",
-        skills: ["data", "python", "machine-learning", "tensorflow"],
-        portfolio: "#",
+        image: "ngozi.jpg",
+        skills: ["graphics design", "python programming", "vanilla js", "video editing"],
+        portfolio: "https://pyp-guild.github.io/Ngozi-portfolio/",
         cohort: "2025",
-        projects: ["Data Analysis", "Prediction Model"]
+        projects: ["portfolio website", "Rock, Paper, Scissors game"]
     }
 ];
 
