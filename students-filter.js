@@ -21,7 +21,7 @@ const students = [
         name: "Achuagu Collins",
         image: "achuagu-collins.jpg",
         skills: ["python programming", "problem solving", "graphics design", "vanilla js"],
-        portfolio: "https://pyp-guild.github.io/Collins_portfolio/",
+        portfolio: "https://pyp-guild.github.io/Collins-Portfolio/",
         cohort: "2025",
         projects: ["API Service", "Portfolio Website"]
     },
